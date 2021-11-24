@@ -16,6 +16,9 @@
 		15D801442749F848008324C4 /* SPOT_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D801432749F848008324C4 /* SPOT_2Tests.swift */; };
 		15D8014E2749F848008324C4 /* SPOT_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D8014D2749F848008324C4 /* SPOT_2UITests.swift */; };
 		15D801502749F848008324C4 /* SPOT_2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D8014F2749F848008324C4 /* SPOT_2UITestsLaunchTests.swift */; };
+		15D8015F274C79D6008324C4 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D8015E274C79D6008324C4 /* LoginView.swift */; };
+		15D80161274C7C4A008324C4 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D80160274C7C4A008324C4 /* RegisterView.swift */; };
+		15D80163274C81A4008324C4 /* AppMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D80162274C81A4008324C4 /* AppMap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		15D801492749F848008324C4 /* SPOT 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SPOT 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15D8014D2749F848008324C4 /* SPOT_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPOT_2UITests.swift; sourceTree = "<group>"; };
 		15D8014F2749F848008324C4 /* SPOT_2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPOT_2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		15D8015E274C79D6008324C4 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		15D80160274C7C4A008324C4 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		15D80162274C81A4008324C4 /* AppMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +108,10 @@
 				15D8012C2749F844008324C4 /* AppDelegate.swift */,
 				15D8012E2749F844008324C4 /* SceneDelegate.swift */,
 				15D801302749F844008324C4 /* ViewController.swift */,
+				15D8015E274C79D6008324C4 /* LoginView.swift */,
+				15D80160274C7C4A008324C4 /* RegisterView.swift */,
 				15D801322749F844008324C4 /* Main.storyboard */,
+				15D80162274C81A4008324C4 /* AppMap.swift */,
 				15D801352749F848008324C4 /* Assets.xcassets */,
 				15D801372749F848008324C4 /* LaunchScreen.storyboard */,
 				15D8013A2749F848008324C4 /* Info.plist */,
@@ -258,8 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15D80163274C81A4008324C4 /* AppMap.swift in Sources */,
 				15D801312749F844008324C4 /* ViewController.swift in Sources */,
+				15D80161274C7C4A008324C4 /* RegisterView.swift in Sources */,
 				15D8012D2749F844008324C4 /* AppDelegate.swift in Sources */,
+				15D8015F274C79D6008324C4 /* LoginView.swift in Sources */,
 				15D8012F2749F844008324C4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,6 +453,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "SPOT 2/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = SPOT;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -468,6 +481,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "SPOT 2/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = SPOT;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
